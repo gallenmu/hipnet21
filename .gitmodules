@@ -1,0 +1,3 @@
+[submodule "low-latency"]
+	path = low-latency
+	url = https://github.com/gallenmu/low-latency
