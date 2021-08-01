@@ -1,0 +1,15 @@
+<nav class="navigation">
+	<ul class="nav-list">
+		<li {% if page.url == "/" %}class="current_path current"{% endif %}><a href="{{ site.url }}/">Home</a></li>
+		<li {% if page.url == "/setup.html" %}class="current_path current"{% endif %}><a href="{{ site.url }}/web/setup.html">Hardware Setup</a></li>
+	</ul>
+	<div style="padding: 10pt 5pt 5pt 5pt; background-color: white"><b>HiPNet '21 Paper</b></div>
+	<ul class="nav-list">
+		<li {% if page.url == "/hdr.html" %}class="current_path current"{% endif %}><a href="{{ site.url }}/web/hdr.html">Figure 3</a></li>
+		<li {% if page.url == "/worstcase.html" %}class="current_path current"{% endif %}><a href="{{ site.url }}/web/worstcase.html">Figure 4</a></li>
+		<li {% if page.url == "/hdr.html" %}class="current_path current"{% endif %}><a href="{{ site.url }}/web/hdr.html">Figure 5</a></li>
+		<li {% if page.url == "/hdr.html" %}class="current_path current"{% endif %}><a href="{{ site.url }}/web/hdr.html">Figure 6</a></li>
+		<li {% if page.url == "/hdr-reldiff.html" %}class="current_path current"{% endif %}><a href="{{ site.url }}/web/hdr-reldiff.html">Figure 7</a></li>
+		<li {% if page.url == "/tlb-shootdown.html" %}class="current_path current"{% endif %}><a href="{{ site.url }}/web/tlb-shootdown.html">Figure 8</a></li>
+	</ul>
+</nav>
